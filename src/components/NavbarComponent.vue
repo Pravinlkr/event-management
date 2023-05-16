@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar">
     <h1 class="text-primary">Event Management</h1>
-    <!-- <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> -->
+    <div class="navbar-action"></div>
+    <BaseButton className="button-primary small" id="sdfsdf">Login</BaseButton>
   </nav>
 </template>
 
@@ -15,6 +15,8 @@ export default {};
   padding: 0 2rem;
   width: calc(100vw - 4rem);
   border-bottom: 1px solid var(--primary-color);
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {

@@ -7,7 +7,7 @@ import camelCase from "lodash/camelCase";
 
 Vue.config.productionTip = false;
 
-// Register component globally
+// Automatic registeration of component globally
 const requireComponent = require.context(
   "./components/global",
   false,

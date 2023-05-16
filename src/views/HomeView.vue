@@ -2,6 +2,12 @@
   <div class="home">
     <img src="@/assets/events.svg" alt="event image" />
     <h2 class="text-primary">Manage Your Events At One Place</h2>
+    <div>
+      To get started
+      <router-link to="/login">Login</router-link>
+      or
+      <router-link to="/register">Register</router-link>
+    </div>
   </div>
 </template>
 

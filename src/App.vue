@@ -23,6 +23,7 @@ body {
   padding: 0;
 }
 
+a,
 .text-primary {
   color: var(--primary-color);
 }
