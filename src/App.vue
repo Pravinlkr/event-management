@@ -16,6 +16,9 @@ export default {
 <style>
 :root {
   --primary-color: #42b983;
+  --secondary-color: #86cdad;
+  --gray-color: #757575;
+  --light-gray-color: #cccccc;
   --border-radius: 14px;
 }
 body {
@@ -26,5 +29,9 @@ body {
 a,
 .text-primary {
   color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
 }
 </style>

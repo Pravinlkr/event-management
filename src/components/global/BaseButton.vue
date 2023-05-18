@@ -38,12 +38,24 @@ button.button-primary {
   background-color: var(--primary-color);
   color: white;
 }
+
+button.button-primary:hover {
+  background-color: var(--secondary-color);
+  transition: 0.8s;
+}
+
 button.small {
   height: 35px;
 }
-button.outlined {
+button.button-outlined {
   border: 1px solid var(--primary-color);
   background: transparent;
   color: var(--primary-color);
+}
+button.button-outlined:hover {
+  border: none;
+  background: var(--primary-color);
+  color: white;
+  transition: 0.8s;
 }
 </style>
